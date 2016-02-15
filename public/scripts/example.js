@@ -59,7 +59,7 @@ var CommentList = React.createClass({
           {comment.text}
         </Comment>
       );
-    })
+    });
 
     return (
       <div className="commentList">
